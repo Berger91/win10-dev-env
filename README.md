@@ -1,5 +1,27 @@
 # Windows 10 Configuration
 
+## Table of Contents
+
+- [Windows 10 Configuration](#windows-10-configuration)
+  - [Table of Contents](#table-of-contents)
+  - [Requirements](#requirements)
+  - [Scoop - Windows CLI Installer](#scoop---windows-cli-installer)
+  - [Windows Tabbed Terminal](#windows-tabbed-terminal)
+  - [WSL2](#wsl2)
+    - [Installation](#installation)
+    - [Vscode integration](#vscode-integration)
+    - [WSL - Ubuntu Configuration](#wsl---ubuntu-configuration)
+      - [ZSH](#zsh)
+      - [Vim example configuration](#vim-example-configuration)
+      - [Tmux example configuration](#tmux-example-configuration)
+  - [Docker](#docker)
+    - [Based on WSL2](#based-on-wsl2)
+      - [Requirements](#requirements-1)
+      - [Installation](#installation-1)
+      - [Choose selected WSL](#choose-selected-wsl)
+  - [Extras](#extras)
+    - [Suggested git configuration](#suggested-git-configuration)
+
 ## Requirements
 
 - Enabled CPU Virtualization in BIOS
