@@ -204,13 +204,13 @@ With this key configuration, you can select text with the mouse and copy it(to t
 #### Requirements
 
 - Make sure your Linux subsystem use WSL Version 2
-    Check version with command `wsl -v -l`
+    Check version with command `wsl -l -v`
     ```
       NAME                   STATE           VERSION
-    * Ubuntu-18.04           Running          1
+    * Ubuntu-20.04           Running          1
     ```
     
-    Convert to WSL2 with `wsl --set-version Ubuntu-18.04 2`
+    Convert to WSL2 with `wsl --set-version Ubuntu-20.04 2`
 
 #### Installation
 
